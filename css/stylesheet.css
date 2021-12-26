@@ -28,22 +28,29 @@ body {
   float: left;
   color: #000;
   text-align: center;
-  padding: 14px 24px;
+  padding: 14px 14px;
   text-decoration: none;
 }
   
 .top-nav a:hover {
-  background-color: rgb(221, 221, 221);
-  color: black;
-}
-
-.top-nav a.active {
-  background-color: #0476aa;
+  background-color: rgb(163, 190, 206);
   color: white;
 }
 
 .body-align {
     padding: 2% 20%;
+}
+
+.author {
+    color: rgb(73, 72, 72);
+    font-style: italic;
+}
+
+.gcse-custom {
+    float: right;
+    width: 30%;
+    background-color: rgb(2, 24, 53);
+    padding-top: 2%;
 }
 
 p {
