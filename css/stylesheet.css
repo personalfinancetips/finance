@@ -82,6 +82,12 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    body {
+        margin: 0%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10px;
+    }
+
     .nav-align{
         margin-left: 2%;
         margin-right: 2%;
