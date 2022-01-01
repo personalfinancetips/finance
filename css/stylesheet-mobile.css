@@ -12,7 +12,7 @@
         margin-bottom: 20px;
     }
 
-    .body-align {
+    .body-main {
         padding: 2% 6%;
     }
 
@@ -43,14 +43,30 @@
     .nav-align.responsive {
         position: relative;
     }
+
     .nav-align.responsive .icon {
         position: absolute;
         right: 0%;
         top: 0%;
     }
+
     .nav-align.responsive a {
         float: none;
         display: block;
         text-align: left;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .sticky + .body-align {
+        padding-top: 40%;
+    }
+
+    .index {
+        visibility: hidden;
     }
   }

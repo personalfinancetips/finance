@@ -36,3 +36,19 @@ function mobileNavbar() {
   return;
 };
 
+function makeList() {
+  var heading = document.querySelectorAll("h1,h2");
+  var list = document.getElementById("toc");
+  for(var i=0; i<heading.length; i++) {
+    var id = heading[i].id;
+    console.log(id);
+    let a = document.createElement("a");
+    a.href = "#" + id;
+    a.innerText = heading[i].innerText;
+    console.log(a);
+    let li = document.createElement("li");
+    li.insertAdjacentElement("afterbegin", a);
+    console.log(li);
+    list.append(li);
+  }
+}
